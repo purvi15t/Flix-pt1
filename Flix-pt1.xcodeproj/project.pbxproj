@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C328FFFB2519A96E00A936BC /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328FFFA2519A96E00A936BC /* UsersViewController.swift */; };
 		C3E56C0A25199C8000BD3C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E56C0925199C8000BD3C18 /* AppDelegate.swift */; };
-		C3E56C0C25199C8000BD3C18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E56C0B25199C8000BD3C18 /* ViewController.swift */; };
 		C3E56C0F25199C8000BD3C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E56C0D25199C8000BD3C18 /* Main.storyboard */; };
 		C3E56C1125199C8400BD3C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E56C1025199C8400BD3C18 /* Assets.xcassets */; };
 		C3E56C1425199C8400BD3C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E56C1225199C8400BD3C18 /* LaunchScreen.storyboard */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C328FFFA2519A96E00A936BC /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		C3E56C0625199C8000BD3C18 /* Flix-pt1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flix-pt1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E56C0925199C8000BD3C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3E56C0B25199C8000BD3C18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3E56C0E25199C8000BD3C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3E56C1025199C8400BD3C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E56C1325199C8400BD3C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C3E56C0925199C8000BD3C18 /* AppDelegate.swift */,
-				C3E56C0B25199C8000BD3C18 /* ViewController.swift */,
+				C328FFFA2519A96E00A936BC /* UsersViewController.swift */,
 				C3E56C0D25199C8000BD3C18 /* Main.storyboard */,
 				C3E56C1025199C8400BD3C18 /* Assets.xcassets */,
 				C3E56C1225199C8400BD3C18 /* LaunchScreen.storyboard */,
@@ -188,18 +188,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Purvi;
 				TargetAttributes = {
 					C3E56C0525199C8000BD3C18 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1200;
 					};
 					C3E56C1925199C8400BD3C18 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1200;
 						TestTargetID = C3E56C0525199C8000BD3C18;
 					};
 					C3E56C2425199C8400BD3C18 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1200;
 						TestTargetID = C3E56C0525199C8000BD3C18;
 					};
 				};
@@ -256,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E56C0C25199C8000BD3C18 /* ViewController.swift in Sources */,
+				C328FFFB2519A96E00A936BC /* UsersViewController.swift in Sources */,
 				C3E56C0A25199C8000BD3C18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +341,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -399,6 +403,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -440,7 +445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Purvi.Flix-pt1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -457,7 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Purvi.Flix-pt1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -476,7 +481,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Purvi.Flix-pt1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flix-pt1.app/Flix-pt1";
 			};
@@ -496,7 +501,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Purvi.Flix-pt1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flix-pt1.app/Flix-pt1";
 			};
@@ -515,7 +520,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Purvi.Flix-pt1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Flix-pt1";
 			};
@@ -534,7 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Purvi.Flix-pt1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Flix-pt1";
 			};

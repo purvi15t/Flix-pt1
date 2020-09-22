@@ -14,7 +14,7 @@ class UsersViewController: UIViewController, UITableViewDataSource, UITableViewD
 
     @IBOutlet weak var UserTableView: UITableView!
     
-    let data = ["New York, NY", "Los Angeles, CA", "Chicago, IL", "Houston, TX",
+    let data = ["Purvi, NY", "Los Angeles, CA", "Chicago, IL", "Houston, TX",
             "Philadelphia, PA", "Phoenix, AZ", "San Diego, CA", "San Antonio, TX",
             "Dallas, TX", "Detroit, MI", "San Jose, CA", "Indianapolis, IN",
             "Jacksonville, FL", "San Francisco, CA", "Columbus, OH", "Austin, TX",
@@ -25,6 +25,7 @@ class UsersViewController: UIViewController, UITableViewDataSource, UITableViewD
 
         UserTableView.dataSource=self
         UserTableView.delegate=self
+        UserTableView.rowHeight = 100
         // Do any additional setup after loading the view.
     }
     
@@ -34,11 +35,11 @@ class UsersViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
-        
-        cell.textLabel!.text = data[indexPath.row]
-        
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "UserCell") as! UserCell
+                let cityState = data[indexPath.row].components(separatedBy: ", ")
+                cell.NameLabel.text = cityState.first
+                cell.PlaceLabel.text = cityState.last
+                return cell
     }
 
     /*

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C314FB54251AA65D000F834E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314FB53251AA65D000F834E /* UserCell.swift */; };
 		C328FFFB2519A96E00A936BC /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328FFFA2519A96E00A936BC /* UsersViewController.swift */; };
 		C3E56C0A25199C8000BD3C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E56C0925199C8000BD3C18 /* AppDelegate.swift */; };
 		C3E56C0F25199C8000BD3C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E56C0D25199C8000BD3C18 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C314FB53251AA65D000F834E /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		C328FFFA2519A96E00A936BC /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		C3E56C0625199C8000BD3C18 /* Flix-pt1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flix-pt1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E56C0925199C8000BD3C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				C3E56C0925199C8000BD3C18 /* AppDelegate.swift */,
 				C328FFFA2519A96E00A936BC /* UsersViewController.swift */,
 				C3E56C0D25199C8000BD3C18 /* Main.storyboard */,
+				C314FB53251AA65D000F834E /* UserCell.swift */,
 				C3E56C1025199C8400BD3C18 /* Assets.xcassets */,
 				C3E56C1225199C8400BD3C18 /* LaunchScreen.storyboard */,
 				C3E56C1525199C8400BD3C18 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				C328FFFB2519A96E00A936BC /* UsersViewController.swift in Sources */,
 				C3E56C0A25199C8000BD3C18 /* AppDelegate.swift in Sources */,
+				C314FB54251AA65D000F834E /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

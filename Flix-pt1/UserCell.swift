@@ -12,6 +12,7 @@ class UserCell: UITableViewCell {
 
     @IBOutlet weak var NameLabel: UILabel!
     @IBOutlet weak var PlaceLabel: UILabel!
+    @IBOutlet weak var posterView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
